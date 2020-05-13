@@ -6,6 +6,6 @@ Building instructions
  - git clone https://github.com/ollieobama/ObamaHack
 
 Import ObamaHack into your IDE of choice.
-./gradlew setupDecompWorkspace
-./gradlew genIntellijRuns #for intellij
-./gradlew eclipse #for eclipse
+- ./gradlew setupDecompWorkspace
+- ./gradlew genIntellijRuns #for intellij
+- ./gradlew eclipse #for eclipse
