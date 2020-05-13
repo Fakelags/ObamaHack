@@ -6,8 +6,7 @@ import me.zeroeightsix.kami.module.modules.misc.DiscordRPC;
 import me.zeroeightsix.kami.util.RichPresence;
 import net.minecraft.client.Minecraft;
 
-import static me.zeroeightsix.kami.KamiMod.APP_ID;
-import static me.zeroeightsix.kami.KamiMod.MODULE_MANAGER;
+import static me.zeroeightsix.kami.KamiMod.*;
 
 /**
  * @author dominikaaaa
@@ -71,7 +70,7 @@ public class DiscordPresence {
         DiscordPresence.presence.details = details;
         DiscordPresence.presence.state = state;
         DiscordPresence.presence.largeImageKey = "kami";
-        DiscordPresence.presence.largeImageText = "ObamaHack v0.2.0";
+        DiscordPresence.presence.largeImageText = MODNAME + " " + MODVER;
         DiscordPresence.rpc.Discord_UpdatePresence(DiscordPresence.presence);
     }
 
