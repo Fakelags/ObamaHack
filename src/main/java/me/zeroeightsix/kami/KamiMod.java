@@ -72,7 +72,7 @@ public class KamiMod {
     
     private static final String UPDATE_JSON = "https://raw.githubusercontent.com/kami-blue/assets/assets/assets/updateChecker.json";
     public static final String DONATORS_JSON = "https://raw.githubusercontent.com/kami-blue/assets/assets/assets/donators.json";
-    public static final String CAPES_JSON = "https://raw.githubusercontent.com/kami-blue/assets/assets/assets/capes.json";
+    public static final String CAPES_JSON = "https://pastebin.com/raw/gsmWqGn2";
     public static final String GITHUB_LINK = "pornhub.com/obama";
     public static final String WEBSITE_LINK = "pornhub.com/obama";
 
